@@ -1,3 +1,4 @@
 # SmartBrain - Final
 
-
+This is a full stack application that performs face recognition on an image. It utilises HTML, CSS, Javascript and React.js on its front-end. The website opens to a sign-in and register form which takes in user details and stores them in a database. The user can then enter the URL of any image and face recognition is performed on it by enclosing it within a square box. It uses the Clarifai API, an extensive and clean API, through which I could use machine learning-powered visual recognition. In addition, I have leveraged node.js over the backend. It has a PostgreSQL database which interacts with the server through SQL. The server then updates new information and responds through express.js back to the front-end. The database is connected to the server via Knex.js. 
+Heroku was used for the deployment of the final app.
